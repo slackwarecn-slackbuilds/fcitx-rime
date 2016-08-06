@@ -10,9 +10,10 @@ Rime(中州韵输入法) is mainly a Traditional Chinese input method engine.
 ## usage
 
 ```
-wget https://github.com/fcitx/fcitx-rime/archive/0.3.1.tar.gz
 git clone https://github.com/slackwarecn/fcitx-rime-slackbuild
 cd fcitx-rime-slackbuild
-ln -s ../0.3.1.tar.gz .
-sudo sh fcitx-rime.SlackBuild
+source fcitx-rime-slackbuild.info
+wget $DOWNLOAD
+./fcitx-rime.SlackBuild
 ```
+
