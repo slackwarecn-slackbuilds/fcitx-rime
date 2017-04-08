@@ -12,7 +12,7 @@ Rime(中州韵输入法) is mainly a Traditional Chinese input method engine.
 ```
 git clone https://github.com/slackwarecn/fcitx-rime-slackbuild
 cd fcitx-rime-slackbuild
-source fcitx-rime-slackbuild.info
+source fcitx-rime.info
 wget $DOWNLOAD
 ./fcitx-rime.SlackBuild
 ```
